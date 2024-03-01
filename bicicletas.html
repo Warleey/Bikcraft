@@ -8,12 +8,14 @@
       <title>Bicicletas | Bikcraft</title>
     <meta name="description" content="Bicicletas">
 
-            <link rel="preload" href="./css/style.css" as="style">
-      <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link href="./css/style.css" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  </head>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
 
   <body id="bicicletas">
     <header class="header-bg">
@@ -39,7 +41,7 @@
               </div>
           </div>
 
-              <div class="bicicletas container">
+              <div class="bicicletas container fadeInUp"data-anime="200">
                 <div class="bicicletas-imagem">
                     <img src="./img/bicicletas/nimbus.jpg" alt="Bicicleta preta">
                     <span class="font-2m cor-0">R$ 4999</span>
@@ -65,7 +67,7 @@
               </div>
 
           <div class="bicicletas-bg">
-            <div class="bicicletas container">
+            <div class="bicicletas container fadeInUp" data-anime="200">
               <div class="bicicletas-imagem">
                   <img src="./img/bicicletas/magic.jpg" alt="Bicicleta preta">
                   <span class="font-2m cor-0">R$ 2499</span>
@@ -91,7 +93,7 @@
             </div>
         </div>
 
-          <div class="bicicletas container">
+          <div class="bicicletas container fadeInUp" data-anime="200">
             <div class="bicicletas-imagem">
                 <img src="./img/bicicletas/nebula.jpg" alt="Bicicleta preta">
                 <span class="font-2m cor-0">R$ 3999</span>
@@ -157,6 +159,6 @@
     </div>
 
   </footer>
-
+    <script src="./js/plugins/simple-anime.js"></script>
       <script src="./js/script.js"></script>
   </body>

@@ -8,13 +8,13 @@
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
 
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-
-  <link href="./css/style.css" rel="preload" as="style">
+  <link rel="preload" href="./css/style.css" as="style">
   <link href="./css/style.css" rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="orcamento">
@@ -43,7 +43,7 @@
 
     <form class="orcamento container" action="./">
 
-      <div class="orcamento-produto">
+      <div class="orcamento-produto fadeInLeft" data-anime="200">
         <h2 class="font-1-xs cor-5">Bikcraft ou Seguro?</h2>
 
         <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
@@ -103,7 +103,7 @@
         </div>
       </div>
 
-      <div class="orcamento-dados form">
+      <div class="orcamento-dados form fadeInRigth" data-anime="400">
         <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
         <div>
           <label for="nome">Nome</label>
@@ -189,5 +189,6 @@
     </div>
 
   </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
       <script src="./js/script.js"></script>
   </body>
